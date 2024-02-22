@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI Black', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #dceb14;
+  color: #0f0f0f;
+  line-height: 2;
+  padding: 20px;
+}
+#search-box {
+  font-size: medium;
+  padding: 6px;
+  max-width: 600px;
+  margin-bottom: 15px;
+}
+.country-flag {
+  max-width: auto;
+  max-height: 25px;
+  margin-right: 10px;
+}
+.country-list {
+    padding: 0;
+}
+.country-list-item {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+.country-name {
+  font-size: 30px;
+}
+.country-info-item {
+  display: flex;
+  align-items: center;
+}
+.country-info-list {
+  list-style: none;
+  padding: 0;
+}
